@@ -135,5 +135,6 @@ li:hover{
 @media (max-widht:768px){
   .body{
   flex-direction: column;
+  max-width: 100%;
   }
 }
