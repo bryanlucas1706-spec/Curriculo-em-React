@@ -1,0 +1,128 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+
+  grid-template-columns: 220px 1fr;
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+header {
+  grid-area: header;
+  background: #020617;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+}
+
+
+.sidebar {
+  grid-area: sidebar;
+  background: #020617;
+  padding: 20px;
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+main {
+  grid-area: main;
+  padding: 30px;
+  min-width: 0; 
+}
+
+
+footer {
+  grid-area: footer;
+  background: #020617;
+  font-size:9px;
+  text-align: center;
+  align-content: end;
+  padding: 5px;
+}
+
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.resume {
+  line-height: 1.6;
+  max-width: 600px;
+  padding: 5px;
+}
+#h2projetos{
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #38bdf8;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.footer{
+  padding-bottom:10px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+}
+li:hover{
+  color: #0ea5e9;
+}
+
+#formação{
+  font-size: 14px;
+}
+
+.projetos {
+  display: flex;
+  gap: 10px;
+}
+
+.imagens{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border-radius: 15px;
+}
+
+#iconeB{
+  width: 50px;
+  display: flex;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  transition: all 0.3s ease;
+}
+
+#iconeB:hover{
+  transform: scale(1.05);
+}
+
+#gmail, #linkedIn, #github{
+  width: 20px;
+}
