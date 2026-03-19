@@ -33,12 +33,22 @@ const App = () => {
             <li>Desenvolvedor Front-End - <strong>CEPEDI | IFMG</strong></li>
           </ul>
         </section>
+
+        <section>
+          <h2>Idiomas</h2>
+          <ul>
+            <li id="idiomas"><strong>Inglês</strong>(Básico / Intermediário)</li>
+          </ul>
+        </section> 
+
         <section>
           <h2>Habilidades</h2>
           <ul>
             <li>Trabalho em equipe</li>
             <li>Resolução de problemas</li>
             <li>Boa comunicação</li>
+            <li>Lógica de Programação</li>
+            <li>Organização</li>
           </ul>
         </section>
 
@@ -51,16 +61,15 @@ const App = () => {
             <li>React</li>
           </ul>
         </section>
+
+        
       </aside>
 
       <main>
         <section>
           <h2 id="h2resume">Resumo</h2>
           <p className="resume">
-            Técnico em Mecatrônica pelo IFMG. Atualmente participo de um programa
-            de capacitação em Front-End com foco em React, JavaScript e criação
-            de interfaces modernas. Busco oportunidades para aplicar meus
-            conhecimentos e evoluir na área de tecnologia.
+            Técnico em Mecatrônica pelo IFMG, com experiência em desenvolvimento de projetos e resolução de problemas. Formação em Front-End, com foco em React, JavaScript e interfaces modernas. Busco uma oportunidade para ingressar na área de tecnologia e contribuir com soluções eficientes.
           </p>
         </section>
 
